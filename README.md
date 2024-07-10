@@ -4,7 +4,9 @@
 So that it’s divided into three layers: Model layer, View layer and View model layer.<br />
 
 ViewModel: Actually view model is a controller where we implement our business logics. It receives the data from the model and process the data according to business logic and pushed into the live data observers which is observing by view.<br />
+
 View: View is the collections of widgets like Text, Image, Dropdown etc. which will be displayed to the users. Even it controls the user input. When it needs any data it command the view model (In this project it’s controller) for data and observe the response. Till then it may display a loader to the user.<br />
+
 Model: Model is basically backend logic. It controls the data source.<br />
 
 ![](https://github.com/jibin94/mvvm_getx/blob/main/mvvm.png)
