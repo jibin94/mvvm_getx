@@ -7,6 +7,8 @@ ViewModel: Actually view model is a controller where we implement our business l
 View: View is the collections of widgets like Text, Image, Dropdown etc. which will be displayed to the users. Even it controls the user input. When it needs any data it command the view model (In this project it’s controller) for data and observe the response. Till then it may display a loader to the user.<br />
 Model: Model is basically backend logic. It controls the data source.<br />
 
+![](https://github.com/jibin94/mvvm_getx/blob/main/mvvm.png)
+
 **There are several advantages of using MVVM**:<br />
 
 - Separation of Concerns: It is a design principle for separating a computer program into distinct sections such that each section addresses a separate concern. A concern is anything that matters in providing a solution to a problem.
